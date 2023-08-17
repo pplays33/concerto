@@ -71,7 +71,7 @@ export default function MainSection(){
                         <div className="About mb-5 flex flex-wrap ">
                             <p className=" text-sm ">autor name </p>
                             <p className=" text-sm ml-1"> | </p>
-                            <p className=" text-sm ml-1">3 Min. To Read. </p>
+                            <p className=" text-sm ml-1">3 Min. To Read </p>
                         </div>
                     </div>
 
