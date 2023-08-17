@@ -53,7 +53,7 @@ export default function MainSection(){
                         <p className=" text-sm ml-1"> | </p>
                         <p className=" text-sm ml-1">02 december 1900 </p>
                         <p className=" text-sm ml-1"> | </p>
-                        <p className=" text-sm ml-1">3 Min. To Read </p>
+                        <p className=" text-sm ml-1">3 Min. Read </p>
                     </div>
                     <div className="Description">
                         <p>Did you come here for something in particular or just general Riker-bashing? And blowing into</p>
