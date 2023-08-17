@@ -27,3 +27,16 @@ p{
 .main{
 
 }
+.posts-main-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.post-position{
+  grid-column: 1 / 2;
+}
+.post-position1{
+  grid-column: 1;
+}
+.title-posts{
+  margin-bottom: 60px;
+}

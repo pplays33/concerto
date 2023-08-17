@@ -2,6 +2,8 @@
 import Image from "next/image";
 import welcome from '../../../../public/welcome.jpg';
 import city from '../../../../public/city.jpg';
+import PostsList from "./PostsList";
+import TitelsSection from "./TitelSections";
 
 import { useDispatch, useSelector } from "react-redux";
 import { increment } from "../../GlobalRedux/Features/slice";
@@ -21,6 +23,7 @@ export default function MainSection(){
         //     <button onClick={() => dispatch(increment())}> + </button>
         //     <button onClick={() => dispatch(increment())}> - </button>
         // </>
+        <>
         <section className={`main ${ isLightThems ? "switchLightThem" : "switchBlackThem" } min-h-full`}>
             <div className=" wrap container__titels pt-20 grid grid-cols-3">
                 <div><h2>Featured  This month</h2></div>
@@ -32,7 +35,7 @@ export default function MainSection(){
                 <div className="container__Featured ">
                     <div className="teg text-sm"> #culture </div>
                     <h1 className={`text-2xl mb-5`}>ferst colum</h1>
-                    <Image src={welcome} className=" max-w-sm max-h-80 rounded-sm bg-cover bg-no-repeat"/>
+                    <Image src={welcome} className=" max-w-sm max-h-80 rounded-sm bg-no-repeat bg-cover bg-center"/>
                     <div className="About mb-5 m-w-[289px] flex flex-wrap">
                         <p className=" text-sm ">autor name </p>
                         <p className=" text-sm ml-1"> | </p>
@@ -47,7 +50,7 @@ export default function MainSection(){
                 <div className="container__Featured ">
                     <div className="teg text-sm">#city</div>
                     <h1 className={`text-2xl mb-5`}>two colum</h1>
-                    <Image src={city} className=" max-w-sm max-h-80 rounded-sm bg-cover bg-no-repeat"/>
+                    <Image src={city} className=" max-w-sm max-h-80 rounded-sm bg-no-repeat bg-cover bg-center"/>
                     <div className="About mb-5 m-w-[289px] flex flex-wrap">
                         <p className=" text-sm ">autor name </p>
                         <p className=" text-sm ml-1"> | </p>
@@ -132,5 +135,19 @@ export default function MainSection(){
                 </div>
             </div>
         </section>
+
+        <section id="PostList" className={` pt-20 ${isLightThems ? "bg-white" : "switchBlackThem"}`}>
+                <div className="wrap">
+                    <TitelsSection styles="title-posts"/>
+
+                    <div className="posts-main-container">
+                        <PostsList className="" />
+                        <div className="p-2"> posts-main-container grid grid-cols-2 </div>
+                    </div>
+                    
+                </div>
+        </section>
+
+        </>
     );
 }
