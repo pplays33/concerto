@@ -40,3 +40,20 @@ p{
 .title-posts{
   margin-bottom: 60px;
 }
+
+.nav-list-item:hover{
+  border-bottom: 2px solid red;
+  transition: all ease-in 0.2s;
+}
+
+@media (max-width: 1024px) {
+  .section__popular-news{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 875px) {
+  .container-footer{
+    grid-template-columns: 1fr;
+  }
+}

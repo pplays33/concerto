@@ -4,6 +4,9 @@ import welcome from '../../../../public/welcome.jpg';
 import city from '../../../../public/city.jpg';
 import PostsList from "./PostsList";
 import TitelsSection from "./TitelSections";
+import TopAutors from "./TopAutors";
+import AdBlocMain from "../AdBlocks/AdBlockMain";
+import Pagination from "../Pagination/Pagination";
 
 import { useDispatch, useSelector } from "react-redux";
 import { increment } from "../../GlobalRedux/Features/slice";
@@ -141,8 +144,31 @@ export default function MainSection(){
                     <TitelsSection styles="title-posts"/>
 
                     <div className="posts-main-container">
-                        <PostsList className="" />
-                        <div className="p-2"> posts-main-container grid grid-cols-2 </div>
+                        <div className="posts">
+                            <PostsList className="" />
+                            <PostsList className="" />
+                            <PostsList className="" />
+                            <PostsList className="" />
+                            <PostsList className="" />
+                            <Pagination />
+                        </div>
+                        
+                        <div className="p-2">
+                            <TopAutors
+                                autorName={"Jenny Kia"}
+                                autorDescription={"Fashion designer, Blogger, activist"}
+                            />
+                            <TopAutors
+                                autorName={"Andress rasel"}
+                                autorDescription={"Fashion designer, Blogger, activist"}
+                            />
+                            <TopAutors
+                                autorName={"Jenny Kia"}
+                                autorDescription={"Fashion designer, Blogger, activist"}
+                            />
+
+                            <AdBlocMain />
+                        </div>
                     </div>
                     
                 </div>

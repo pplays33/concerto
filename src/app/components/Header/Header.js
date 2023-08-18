@@ -13,10 +13,10 @@ export default function Header(){
                 <div className='wrap flex flex-wrap justify-between'>
                     <nav className='menu w-80'>
                         <ul className='nav-list flex flex-wrap justify-between text-lg'>
-                            <li>Homepages</li>
-                            <li>about</li>
-                            <li>Categories</li>
-                            <li>pages</li>
+                            <li className='nav-list-item'>Homepages</li>
+                            <li className='nav-list-item'>about</li>
+                            <li className='nav-list-item'>Categories</li>
+                            <li className='nav-list-item'>pages</li>
                         </ul>
                     </nav>
                     <div className='titel flex'>
