@@ -70,7 +70,7 @@ export default function MainSection(){
                     {/* <p className={`text-lg ${font.className}`}>Did you come here for something in particular or just general Riker-bashing?
                         And blowing into maximum warp
                     </p>    */}
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3 ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>Did you come here for something in particular or just general Riker-bashing?
                             And blowing into maximum warp
                         </p>
@@ -81,7 +81,7 @@ export default function MainSection(){
                         </div>
                     </div>
 
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3 ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>I Created a Developer Rap Video - Here's What I Learned from it. Check it out
                         </p>
                         <div className="About mb-5 flex flex-wrap ">
@@ -91,7 +91,7 @@ export default function MainSection(){
                         </div>
                     </div>
 
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3 ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>Did you come here for something in particular or just general Riker-bashing?
                             And blowing into maximum warp
                         </p>
@@ -102,7 +102,7 @@ export default function MainSection(){
                         </div>
                     </div>
 
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3  ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>Did you come here for something in particular or just general Riker-bashing?
                             And blowing into maximum warp
                         </p>
@@ -114,7 +114,7 @@ export default function MainSection(){
                     </div>
 
 
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3  ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>Did you come here for something in particular or just general Riker-bashing?
                             And blowing into maximum warp
                         </p>
@@ -125,7 +125,7 @@ export default function MainSection(){
                         </div>
                     </div>
 
-                    <div className={`container__pop-post p-2 mb-3 min-h-[162px] ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
+                    <div className={`container__pop-post p-2 mb-3  ${isLightThems ? "bg-white" : "bg-neutral-600"} rounded-lg`}>
                         <p className={`text-lg mb-2`}>Did you come here for something in particular or just general Riker-bashing?
                             And blowing into maximum warp
                         </p>

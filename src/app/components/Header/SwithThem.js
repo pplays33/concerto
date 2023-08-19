@@ -12,7 +12,7 @@ export default function SwithThem(){
     const dispatch = useDispatch();
 
     return(
-        <button className='ml-1' onClick={() => dispatch(Switch())}> <Image src={Sunny}/> {currState} </button>
+        <button className='ml-1 z-10' onClick={() => dispatch(Switch())}> <Image src={Sunny}/> {currState} </button>
     );
     
 }

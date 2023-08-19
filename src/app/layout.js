@@ -1,11 +1,11 @@
 import './globals.css'
-import { Yanone_Kaffeesatz, Zilla_Slab } from 'next/font/google'
+import { Yanone_Kaffeesatz, Zilla_Slab, Oswald, Assistant, Space_Grotesk } from 'next/font/google'
 
 import { Providers } from './GlobalRedux/provider'
 import Header from './components/Header/Header'
-import Footer from './Footer/Footer'
+import Footer from './components/Footer/Footer'
 
-const inter = Zilla_Slab({ subsets: ['latin'], weight: ['400'] })
+const inter = Space_Grotesk({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
   title: 'The Concerto',
